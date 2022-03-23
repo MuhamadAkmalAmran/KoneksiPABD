@@ -14,10 +14,10 @@ namespace KoneksiPABD
             new Program().Connecting();
         }
 
-        public void Connecting()
+        public void Connecting()//membuat method koneksi
         {
             using (
-                SqlConnection con = new SqlConnection("data source=LENOVO\\AKMALAMRAN;database=ProdiTI;User ID=sa;Password=uzumaki")
+                SqlConnection con = new SqlConnection("data source=LENOVO\\AKMALAMRAN;database=akmal_exe2;User ID=sa;Password=uzumaki")
                 )
             {
                 con.Open();
